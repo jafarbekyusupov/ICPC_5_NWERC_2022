@@ -8,7 +8,20 @@ PROBLEM I - INTERVIEW QUESTIONS - FizzBuzz
 # FizzBuzz - if i%B == 0 && if i%A == 0
 '''
 
-s, e = map(int, input.split())
-for(e-s+1){
-    if
+ma  = []
+mb  = []
+mab  = []
 
+s, e = map(int, input.split())
+for i in range(e, s+1){
+    a = input()
+    if a == "Fizz":
+        ma.append(i)
+    if a == "Buzz":
+        mb.append(i)
+    if a == "FizzBuzz":
+        mab.append(i)
+
+print(ma)
+print(mb)
+print(mab)
